@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*  nav    */
+
+.nav1{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(33, 157, 14);
+    color: white;
+    display: flex;
+}
+
+.logo img{ 
+    width: 120px;
+    height: 120px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 70px;
+    padding-top: 35px;
+    padding-right: 15px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    float: right;
+
+}
+
+.menu a{
+    list-style: none;
+    border: 1px solid rgb(33, 157, 14);
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.menu a:hover{
+    background-color: rgb(35, 162, 120);
+}
+
+/* nav end */
+
+
+/* box   */
+
+.box{
+    background-color: rgb(153, 178, 218);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    
+    
+}
+
+.tips{
+    height: 650px;
+    width: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: coral;
+
+
+}
+
+
+.image{
+    opacity: 10px;
+    height: 650px;
+    width: 100%;
+    border-radius: 70px;
+    
+}
+
+/*   box   */
+
+
+
+
+.par{
+    height: 60px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(255, 255, 254);
+}
+
+
+/*  image link  */
+
+.dr{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+.col{
+    border-radius: 10px;
+    flex-basis: 30%;
+    overflow: hidden;
+
+}
+
+.col img{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 400px;
+    border-radius: 50px;
+
+}
+
+.col a{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight:bold'
+}
+
+.col a:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+
+/* image link  */
+
+
+.mar{
+    height:60px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(89, 8, 126);
+    background-color: rgb(255, 255, 255);
+    word-spacing: 10px;
+}
+
+
+/* footer  */
+
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    
+}
+h1{
+    color: aliceblue;
+    padding-top: 10px;
+
+}
+
+h3{
+    color: white;
+    padding-top: 30px;
+}
+
+
+/*   footer  */
